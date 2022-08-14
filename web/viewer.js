@@ -237,7 +237,7 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "compressed.tracemonkey-pldi-09.pdf",
+	  value: prompt("Please enter the pdf file name:", "compressed.tracemonkey-pldi-09.pdf"),
     kind: OptionKind.VIEWER
   };
   defaultOptions.disablePreferences = {
